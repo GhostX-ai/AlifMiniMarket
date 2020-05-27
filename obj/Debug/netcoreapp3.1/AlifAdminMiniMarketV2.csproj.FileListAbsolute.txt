@@ -76,3 +76,4 @@ C:\Users\GhostX\Desktop\c#Projects\AlifAdminMiniMarketV2\obj\Debug\netcoreapp3.1
 C:\Users\GhostX\Desktop\c#Projects\AlifAdminMiniMarketV2\obj\Debug\netcoreapp3.1\AlifAdminMiniMarketV2.pdb
 C:\Users\GhostX\Desktop\c#Projects\AlifAdminMiniMarketV2\obj\Debug\netcoreapp3.1\AlifAdminMiniMarketV2.genruntimeconfig.cache
 C:\Users\GhostX\Desktop\c#Projects\AlifAdminMiniMarketV2\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\GhostX\Desktop\c#Projects\AlifAdminMiniMarketV2\obj\Debug\netcoreapp3.1\Razor\Views\Product\Add.cshtml.g.cs
