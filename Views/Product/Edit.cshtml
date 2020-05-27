@@ -1,16 +1,17 @@
 @model AlifAdminMiniMarketV2.Models.Product
 
-<form asp-action="Add" asp-controller="Product" asp-antiforgery="true">
+<form asp-action="Edit" asp-controller="Product" asp-antiforgery="true">
     <div asp-validation-summary="ModelOnly"></div>
     <div>
         <div class="form-group">
+            <input type="hidden" asp-for="Id" value="@Model.Id"/>
             <label asp-for="ProductName">Имя продукта</label>
-            <input type="text" asp-for="ProductName" class="form-control"/>
+            <input type="text" value="@Model.ProductName" asp-for="ProductName" class="form-control"/>
             <span asp-validation-for="ProductName"></span>
         </div>
         <div class="form-group">
             <label asp-for="ProductCategory">Имя продукта</label>
-            <select name="id" class="form-control">
+            <select name="xid" class="form-control">
                 @foreach(var x in ViewBag.Categories)
                 {
                     <option value="@x.Id">
@@ -22,11 +23,11 @@
         </div>
         <div class="form-group">
             <label asp-for="Price">Цена</label>
-            <input type="number" asp-for="Price" class="form-control"/>
+            <input type="number" asp-for="Price" value="@Model.Price" class="form-control"/>
             <span asp-validation-for="Price"></span>
         </div>
         <div class="form-group">
-            <input type="submit" value="Add" class="form-control btn"/>
+            <input type="submit" value="Edit" class="form-control btn"/>
         </div>
     </div>
 </form>

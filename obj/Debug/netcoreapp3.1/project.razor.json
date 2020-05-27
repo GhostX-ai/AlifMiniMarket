@@ -20556,6 +20556,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\AlifAdminMiniMarketV2\\Views\\Product\\Edit.cshtml",
+      "TargetPath": "Views\\Product\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\AlifAdminMiniMarketV2\\Views\\Product\\Add.cshtml",
       "TargetPath": "Views\\Product\\Add.cshtml",
       "FileKind": "mvc"

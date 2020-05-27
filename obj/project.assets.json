@@ -1151,34 +1151,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GhostX\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/home/jafar/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GhostX\\Desktop\\c#Projects\\AlifAdminMiniMarketV2\\AlifAdminMiniMarketV2.csproj",
+      "projectUniqueName": "/home/jafar/Рабочий стол/AlifAdminMiniMarketV2/AlifAdminMiniMarketV2.csproj",
       "projectName": "AlifAdminMiniMarketV2",
-      "projectPath": "C:\\Users\\GhostX\\Desktop\\c#Projects\\AlifAdminMiniMarketV2\\AlifAdminMiniMarketV2.csproj",
-      "packagesPath": "C:\\Users\\GhostX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GhostX\\Desktop\\c#Projects\\AlifAdminMiniMarketV2\\obj\\",
+      "projectPath": "/home/jafar/Рабочий стол/AlifAdminMiniMarketV2/AlifAdminMiniMarketV2.csproj",
+      "packagesPath": "/home/jafar/.nuget/packages/",
+      "outputPath": "/home/jafar/Рабочий стол/AlifAdminMiniMarketV2/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\GhostX\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/home/jafar/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\": {},
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1228,7 +1218,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
       }
     }
   }
