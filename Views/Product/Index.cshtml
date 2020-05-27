@@ -1,0 +1,37 @@
+@model List<AlifAdminMiniMarketV2.Models.Product>
+@{
+    ViewData["Title"] = "Продукты";
+}
+
+<a asp-action="Add" asp-controller="Product">Add</a>
+
+<table class="table table-active table-bordered table-hover">
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Category</td>
+            <td>Actions</td>
+        </tr>    
+    </thead>
+    <tbody>
+        @foreach (var x in Model)
+        {
+            <tr>
+                <td>@x.Id</td>
+                <td>@x.ProductName</td>
+                <td>@x.ProductCategory.Category</td>
+                <td><a asp-action="Delete" asp-controller="Product" asp-route-id="@x.Id" id="Delete">Delete</a><a asp-action="Edit" asp-controller="Product" asp-route-id="@x.Id">Edit</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<script>
+    $(document).ready(function() {
+        $("#Delete").click(function()
+        {
+            confirm("Are you sure that you are sure?");
+        });
+    });
+</script>
