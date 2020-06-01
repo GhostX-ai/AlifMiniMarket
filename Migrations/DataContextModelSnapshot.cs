@@ -16,6 +16,34 @@ namespace AlifAdminMiniMarketV2.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.4");
 
+            modelBuilder.Entity("AlifAdminMiniMarketV2.Models.Basket", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Adress")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("DeliverTime")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Numbers")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("ProductId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Basket");
+                });
+
             modelBuilder.Entity("AlifAdminMiniMarketV2.Models.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -67,6 +95,13 @@ namespace AlifAdminMiniMarketV2.Migrations
                             Id = 3,
                             Category = "Мясо"
                         });
+                });
+
+            modelBuilder.Entity("AlifAdminMiniMarketV2.Models.Basket", b =>
+                {
+                    b.HasOne("AlifAdminMiniMarketV2.Models.Product", "Product")
+                        .WithMany("Basket")
+                        .HasForeignKey("ProductId");
                 });
 
             modelBuilder.Entity("AlifAdminMiniMarketV2.Models.Product", b =>

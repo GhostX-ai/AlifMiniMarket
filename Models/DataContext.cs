@@ -7,7 +7,8 @@ namespace AlifAdminMiniMarketV2.Models
         public DataContext(DbContextOptions options) : base(options)
         {
         }
-        public virtual DbSet<Product> Products { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Basket> Baskets { get; set; }
         public virtual DbSet<ProductCategory> Categories { get; set; }
         protected override void OnModelCreating(ModelBuilder model)
         {

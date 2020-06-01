@@ -1,8 +1,34 @@
-﻿@{
+﻿@model AlifAdminMiniMarketV2.Models.Product
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<form asp-action="Index" asp-controller="Product" asp-antiforgery="true">
+<select name="category">
+    <option>
+        Все
+    </option>
+    @foreach (var x in ViewBag.Categories)
+    {
+        <option>@x.Category</option>
+    }
+</select>
+<input type="submit" value="Перейти">
+</form>
+
+<div class="row">
+    @foreach(var x in Model)
+    {
+        <div class="card">
+            <div class="card-title">
+                @x.ProductName
+            </div>
+            <div class="card-body">
+                @x.Price
+            </div>
+            <div>
+                <a class="nav-link dark btn" asp-route-id="@x.Id" asp-action="ToBasket" asp-controller="Home">Добавить в корзину</a>
+            </div>
+        </div>
+    }
 </div>

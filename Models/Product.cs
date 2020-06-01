@@ -8,5 +8,6 @@ namespace AlifAdminMiniMarketV2.Models
         public string ProductName { get; set; }
         public double Price { get; set; }
         public ProductCategory ProductCategory { get; set; }
+        public virtual ICollection<Basket> Basket { get; set; }
     }
 }
