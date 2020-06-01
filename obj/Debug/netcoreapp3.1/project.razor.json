@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\AlifAdminMiniMarketV2\\AlifAdminMiniMarketV2.csproj",
+  "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\UpdatedAlifMiniMarket\\AlifMiniMarket\\AlifAdminMiniMarketV2.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20521,53 +20521,63 @@
   "RootNamespace": "AlifAdminMiniMarketV2",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\AlifAdminMiniMarketV2\\Views\\Product\\Index.cshtml",
-      "TargetPath": "Views\\Product\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\AlifAdminMiniMarketV2\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\AlifAdminMiniMarketV2\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\AlifAdminMiniMarketV2\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\AlifAdminMiniMarketV2\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\AlifAdminMiniMarketV2\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\AlifAdminMiniMarketV2\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\AlifAdminMiniMarketV2\\Views\\Product\\Edit.cshtml",
+      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\UpdatedAlifMiniMarket\\AlifMiniMarket\\Views\\Product\\Edit.cshtml",
       "TargetPath": "Views\\Product\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\AlifAdminMiniMarketV2\\Views\\Product\\Add.cshtml",
+      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\UpdatedAlifMiniMarket\\AlifMiniMarket\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\UpdatedAlifMiniMarket\\AlifMiniMarket\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\UpdatedAlifMiniMarket\\AlifMiniMarket\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\UpdatedAlifMiniMarket\\AlifMiniMarket\\Views\\Product\\Add.cshtml",
       "TargetPath": "Views\\Product\\Add.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\AlifAdminMiniMarketV2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\UpdatedAlifMiniMarket\\AlifMiniMarket\\Views\\Product\\Index.cshtml",
+      "TargetPath": "Views\\Product\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\UpdatedAlifMiniMarket\\AlifMiniMarket\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\UpdatedAlifMiniMarket\\AlifMiniMarket\\Views\\Home\\ToBasket.cshtml",
+      "TargetPath": "Views\\Home\\ToBasket.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\UpdatedAlifMiniMarket\\AlifMiniMarket\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\UpdatedAlifMiniMarket\\AlifMiniMarket\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\UpdatedAlifMiniMarket\\AlifMiniMarket\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\GhostX\\Desktop\\c#Projects\\UpdatedAlifMiniMarket\\AlifMiniMarket\\Views\\Home\\Basket.cshtml",
+      "TargetPath": "Views\\Home\\Basket.cshtml",
       "FileKind": "mvc"
     }
   ],

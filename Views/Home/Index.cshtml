@@ -1,9 +1,9 @@
-﻿@model AlifAdminMiniMarketV2.Models.Product
+﻿@model List<AlifAdminMiniMarketV2.Models.Product>
 @{
     ViewData["Title"] = "Home Page";
 }
 
-<form asp-action="Index" asp-controller="Product" asp-antiforgery="true">
+<form asp-action="Index" asp-controller="Home" asp-antiforgery="true">
 <select name="category">
     <option>
         Все
@@ -21,10 +21,12 @@
     {
         <div class="card">
             <div class="card-title">
-                @x.ProductName
+                <h1 class="text-center">
+                    @x.ProductName
+                </h1>
             </div>
             <div class="card-body">
-                @x.Price
+                <b>@x.Price</b> сомони
             </div>
             <div>
                 <a class="nav-link dark btn" asp-route-id="@x.Id" asp-action="ToBasket" asp-controller="Home">Добавить в корзину</a>

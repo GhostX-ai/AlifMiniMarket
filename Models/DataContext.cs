@@ -8,7 +8,7 @@ namespace AlifAdminMiniMarketV2.Models
         {
         }
         public DbSet<Product> Products { get; set; }
-        public DbSet<Basket> Baskets { get; set; }
+        public DbSet<Basket> Basket { get; set; }
         public virtual DbSet<ProductCategory> Categories { get; set; }
         protected override void OnModelCreating(ModelBuilder model)
         {

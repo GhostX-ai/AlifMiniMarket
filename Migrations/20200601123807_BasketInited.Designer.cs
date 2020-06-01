@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AlifAdminMiniMarketV2.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20200601082642_BasketInited")]
+    [Migration("20200601123807_BasketInited")]
     partial class BasketInited
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

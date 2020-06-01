@@ -239,3 +239,5 @@ C:\Users\GhostX\Desktop\c#Projects\UpdatedAlifMiniMarket\AlifMiniMarket\obj\Debu
 C:\Users\GhostX\Desktop\c#Projects\UpdatedAlifMiniMarket\AlifMiniMarket\obj\Debug\netcoreapp3.1\staticwebassets\AlifAdminMiniMarketV2.StaticWebAssets.Manifest.cache
 C:\Users\GhostX\Desktop\c#Projects\UpdatedAlifMiniMarket\AlifMiniMarket\obj\Debug\netcoreapp3.1\staticwebassets\AlifAdminMiniMarketV2.StaticWebAssets.xml
 C:\Users\GhostX\Desktop\c#Projects\UpdatedAlifMiniMarket\AlifMiniMarket\obj\Debug\netcoreapp3.1\AlifAdminMiniMarketV2.genruntimeconfig.cache
+C:\Users\GhostX\Desktop\c#Projects\UpdatedAlifMiniMarket\AlifMiniMarket\obj\Debug\netcoreapp3.1\Razor\Views\Home\ToBasket.cshtml.g.cs
+C:\Users\GhostX\Desktop\c#Projects\UpdatedAlifMiniMarket\AlifMiniMarket\obj\Debug\netcoreapp3.1\Razor\Views\Home\Basket.cshtml.g.cs
